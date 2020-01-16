@@ -1,18 +1,18 @@
 var AutoMule = {
 	Mules: {
 		"Mule1":  {
-			muleProfile: "",  // The name of mule profile in d2bot#. It will be started and stopped when needed.
-			accountPrefix: "",  // Account prefix. Numbers added automatically when making accounts.
-			accountPassword: "",  // Account password.
-			charPrefix: "",  // Character prefix. Suffix added automatically when making characters.
-			realm: "", // Available options: "useast", "uswest", "europe", "asia"
+			muleProfile: "mule",  // The name of mule profile in d2bot#. It will be started and stopped when needed.
+			accountPrefix: "nbardomule-",  // Account prefix. Numbers added automatically when making accounts.
+			accountPassword: "nbm243",  // Account password.
+			charPrefix: "nbm-",  // Character prefix. Suffix added automatically when making characters.
+			realm: "useast", // Available options: "useast", "uswest", "europe", "asia"
 			expansion: true,
 			ladder: true,
 			hardcore: false,
 			charsPerAcc: 8, // Maximum number of mules to create per account (between 1 to 18)
 
 			// Game name and password of the mule game. Never use the same game name as for mule logger.
-			muleGameName: ["", ""], // ["gamename", "password"]
+			muleGameName: ["nbmule", "nb"], // ["gamename", "password"]
 
 			// List of profiles that will mule items. Example: enabledProfiles: ["profile 1", "profile 2"],
 			enabledProfiles: [""],
